@@ -1,0 +1,726 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39612657093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.setDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verifying Empty fields of Login screen",
+        "description": "",
+        "id": "chillipharm-login-page;verifying-empty-fields-of-login-screen;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 966269010,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6091744943,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on ChilliPharm home page",
+            "match": {
+              "location": "LoginPageStepDef.iAmOnChilliPharmHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2289833597,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to Login page",
+            "match": {
+              "location": "LoginPageStepDef.iNavigateToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359050605,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter email \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                },
+                {
+                  "val": "",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginPageStepDef.iEnterUsernameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96646334,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the error message for \"\" and password \"\" on Login screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 36
+                },
+                {
+                  "val": "",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginPageStepDef.iShouldSeeTheErrorMessageForAndPasswordOnLoginScreen(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7138155646,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.setDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verifying Empty fields of Login screen",
+        "description": "",
+        "id": "chillipharm-login-page;verifying-empty-fields-of-login-screen;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 602178543,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4020702416,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on ChilliPharm home page",
+            "match": {
+              "location": "LoginPageStepDef.iAmOnChilliPharmHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2279711909,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to Login page",
+            "match": {
+              "location": "LoginPageStepDef.iNavigateToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 506689565,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter email \"testing@gmail.com\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginPageStepDef.iEnterUsernameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36437606,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the error message for \"testing@gmail.com\" and password \"\" on Login screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing@gmail.com",
+                  "offset": 36
+                },
+                {
+                  "val": "",
+                  "offset": 69
+                }
+              ],
+              "location": "LoginPageStepDef.iShouldSeeTheErrorMessageForAndPasswordOnLoginScreen(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3575618866,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.setDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verifying Empty fields of Login screen",
+        "description": "",
+        "id": "chillipharm-login-page;verifying-empty-fields-of-login-screen;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 376199706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3404536534,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on ChilliPharm home page",
+            "match": {
+              "location": "LoginPageStepDef.iAmOnChilliPharmHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2263248999,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to Login page",
+            "match": {
+              "location": "LoginPageStepDef.iNavigateToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441990615,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter email \"\" and password \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                },
+                {
+                  "val": "Test123",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginPageStepDef.iEnterUsernameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32603248,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the error message for \"\" and password \"Test123\" on Login screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 36
+                },
+                {
+                  "val": "Test123",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginPageStepDef.iShouldSeeTheErrorMessageForAndPasswordOnLoginScreen(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2563323659,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.setDriver()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verifying Invalid Login credentials",
+        "description": "",
+        "id": "chillipharm-login-page;verifying-invalid-login-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 386333401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1306371197,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on ChilliPharm home page",
+            "match": {
+              "location": "LoginPageStepDef.iAmOnChilliPharmHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2276093047,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I navigate to Login page",
+            "match": {
+              "location": "LoginPageStepDef.iNavigateToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 915402210,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter email \"invalidemail@gmail.com\" and password \"correctpassword123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidemail@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "correctpassword123",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginPageStepDef.iEnterUsernameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47016139,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see the invalid credentials error message",
+            "match": {
+              "location": "LoginPageStepDef.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3953322697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.setDriver()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verifying Invalid Login credentials",
+        "description": "",
+        "id": "chillipharm-login-page;verifying-invalid-login-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 382405745,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1973602614,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on ChilliPharm home page",
+            "match": {
+              "location": "LoginPageStepDef.iAmOnChilliPharmHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2212135101,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I navigate to Login page",
+            "match": {
+              "location": "LoginPageStepDef.iNavigateToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1073522453,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter email \"validemail@yahoo.com\" and password \"invalidpassword123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validemail@yahoo.com",
+                  "offset": 15
+                },
+                {
+                  "val": "invalidpassword123",
+                  "offset": 51
+                }
+              ],
+              "location": "LoginPageStepDef.iEnterUsernameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37835887,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see the invalid credentials error message",
+            "match": {
+              "location": "LoginPageStepDef.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3012849798,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.setDriver()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verifying third consecutive failed attempt",
+        "description": "",
+        "id": "chillipharm-login-page;verifying-third-consecutive-failed-attempt",
+        "after": [
+          {
+            "result": {
+              "duration": 299610245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1369684316,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am on ChilliPharm home page",
+            "match": {
+              "location": "LoginPageStepDef.iAmOnChilliPharmHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2201859953,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I navigate to Login page",
+            "match": {
+              "location": "LoginPageStepDef.iNavigateToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2472697642,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter invalid credentials three time consecutive with same email",
+            "match": {
+              "location": "LoginPageStepDef.iEnterInvalidCredentialsThreeTimeConsecutiveWithSameEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131532582,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should see the account lockout warning after third consecutive failed attempt",
+            "match": {
+              "location": "LoginPageStepDef.iShouldSeeTheAccountLockoutWarningPopupWindowWithErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2778419525,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.setDriver()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Verifying fifth consecutive failed attempt",
+        "description": "",
+        "id": "chillipharm-login-page;verifying-fifth-consecutive-failed-attempt",
+        "after": [
+          {
+            "result": {
+              "duration": 426945540,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverProvider.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1368583172,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am on ChilliPharm home page",
+            "match": {
+              "location": "LoginPageStepDef.iAmOnChilliPharmHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2135466518,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I navigate to Login page",
+            "match": {
+              "location": "LoginPageStepDef.iNavigateToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6332383573,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter invalid credentials five time consecutive with same email",
+            "match": {
+              "location": "LoginPageStepDef.iEnterInvalidCredentialsFiveTimeConsecutiveWithSameEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219440570,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should see the account lockout warning after fifth consecutive failed attempt",
+            "match": {
+              "location": "LoginPageStepDef.iShouldSeeTheAccountLockoutWarningAfterFifthConsecutiveFailedAttempt()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "ChilliPharm Login Page",
+    "description": "As a User\nI want to test login functionality of ChilliPharm\nSo that different levels of work can be accomplished on ChilliPharm website pages",
+    "id": "chillipharm-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/LoginPage.feature"
+  }
+]
